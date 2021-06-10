@@ -1,0 +1,23 @@
+{
+  "name": "hatchways-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.3.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "memory-cache": "^0.2.0"
+  }
+}
